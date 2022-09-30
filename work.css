@@ -1,0 +1,1022 @@
+@font-face {
+    font-family: ap1;
+    src: url(font1.woff);
+}
+@font-face {
+    font-family: ap2;
+    src: url(font2.woff2);
+}
+@font-face {
+    font-family: ap3;
+    src: url(font3.woff2);
+}
+@font-face {
+    font-family: ap4;
+    src: url(font4.woff2);
+}
+@font-face {
+    font-family: ap5;
+    src: url(font5.woff2);
+}
+@font-face {
+    font-family: ap6;
+    src: url(font6.woff2);
+}
+@font-face {
+    font-family: ap7;
+    src: url(font7.woff2);
+}
+@font-face {
+    font-family: ap8;
+    src: url(font8.woff2);
+}
+@font-face {
+    font-family: ap9;
+    src: url(font9.woff2);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#main{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
+a:hover{
+    color: rgb(172, 172, 172);
+
+}
+.layer{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    z-index: 999;
+    top: -100%;
+    position: fixed;
+}
+.Home{
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    height: 20vh;
+    width: 90vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.Home>h1:nth-child(1){
+    position: relative;
+    color: rgb(163, 163, 163);
+    left: 10%;
+    font-size: 8vw;
+    font-family: ap1;
+}
+.Home>h1:nth-child(2){
+    position: relative;
+    left: 10%;
+    color: white;
+    font-size: 8vw;
+    font-family: ap2;
+}
+.Work{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    height: 20vh;
+    width: 90vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.Work>h1:nth-child(1){
+    position: relative;
+    color: rgb(163, 163, 163);
+    left: 10%;
+    font-size: 8vw;
+    font-family: ap1;
+}
+.Work>h1:nth-child(2){
+    position: relative;
+    left: 10%;
+    color: white;
+    font-size: 8vw;
+    font-family: ap2;
+}
+
+
+.About{
+    position: absolute;
+    top:46%;
+    left: 20%;
+    height: 20vh;
+    width: 90vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.About>h1:nth-child(1){
+    position: relative;
+    color: rgb(163, 163, 163);
+    left: 10%;
+    font-size: 8vw;
+    font-family: ap1;
+}
+.About>h1:nth-child(2){
+    position: relative;
+    left: 10%;
+    color: white;
+    font-size: 8vw;
+    font-family: ap2;
+}
+
+
+
+.Hire{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    height: 20vh;
+    width: 90vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.Hire>h1:nth-child(1){
+    position: relative;
+    color: rgb(163, 163, 163);
+    left: 10%;
+    font-size: 8vw;
+    font-family: ap1;
+}
+.Hire>h1:nth-child(2){
+    position: relative;
+    left: 10%;
+    color: white;
+    font-size: 8vw;
+    font-family: ap2;
+}
+.mail{
+    position: absolute;
+    height: 5vw;
+    width: 15vw;
+    /* border: 1px solid red; */
+    font-family: ap2;
+    font-weight: bold;
+    top: 50%;
+    right: 0%;
+}
+.mail>.head{
+    font-size: 1.2vw;
+    color: rgb(163, 163, 163);
+}
+.mail>a{
+    text-decoration: underline;
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+    color: white;
+    font-weight: 100;
+
+}
+.follow{
+    position: absolute;
+    height: 3vw;
+    width: 10vw;
+    /* border: 1px solid red; */
+    top: 74%;
+    right: 4%;
+    font-size: 1.2vw;
+    color: rgb(163, 163, 163);
+    font-family: ap2;
+    font-weight: bold;
+
+}
+.layer>i{
+    color: rgb(163, 163, 163);
+
+}
+
+i::after{
+    content: "";
+    position: absolute;
+    height: 3.5vw;
+    width: 3.5vw;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 50%;
+    top: -4%;
+    left: -4%;
+
+
+}
+
+#seven{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: ap2;
+    position: fixed;
+
+}
+#seven>.nav{
+    position: absolute;
+    top: 20%;
+    height: 10vh;
+    width: 100%;
+    font-size: 1.4vw;
+
+    display: flex;
+    color: rgb(201, 201, 201);
+    justify-content: space-between;
+    text-align: center;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+
+}
+#seven>.nav>ul{
+    display: flex;
+    list-style: none;
+  
+}
+#seven>.nav>ul>li{
+    padding-left: 30px;
+}
+#seven>.nav>ul>li:hover{
+    cursor: pointer;
+    color: rgb(161, 161, 161);
+}
+
+
+.eml{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#seven>.text{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-family: ap1;
+    font-size: 9vw;
+    color: rgb(226, 226, 226);
+    font-weight: 100;
+}
+#seven>.link{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+#seven>.link>a{
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(155, 155, 2);
+}
+#seven>.link:hover svg{
+    transform: translateX(20px);
+}
+
+i{
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 50%;
+    
+}
+svg{
+    transition: all 0.4s linear;
+}
+
+.ri-linkedin-fill{
+    position: absolute;
+    bottom: 12%;
+    right: 11%;
+}
+.ri-instagram-line{
+    position: absolute;
+    bottom: 12%;
+    right: 6%;
+}
+i:hover{
+    background-color: rgb(75, 75, 75);
+}
+#first{
+    position: relative;
+    min-height: 150vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+.ri-menu-line{
+    color: white;
+    z-index: 9999;
+    position: relative;
+    top: 5%;
+    right: 5%;
+    position: fixed;
+   
+}
+.ri-close-line{
+    color: white;
+    z-index: 999;
+    position: relative;
+    top: 5%;
+    right: 5%;
+    position: fixed;
+    opacity: 0;
+}
+#first>.head{
+    position: absolute;
+    color: rgb(233, 233, 233);
+    font-family: ap2;
+    font-size: 4.2vw;
+    top: 10%;
+    left: 10%;
+}
+#first>.first{
+    position: absolute;
+    height: 48vw;
+    width: 43vw;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%);
+
+}
+.first>.image{
+    position: relative;
+    height: 70%;
+    width: 100%;
+
+}
+.first:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.image>img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.first>.smltxt{
+    font-family: ap2;
+    color: rgb(209, 209, 209);
+
+}
+.first>.ltxt{
+    font-family: ap1;
+    font-size: 5vw;
+    color: white;
+
+}
+#first>.aero{
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 51);
+    top: 55%;
+    right: 14%;
+    z-index: 99;
+}
+.aero>svg{
+    position: absolute;
+    width: 3vw;
+    height: 5vw;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#sec{
+    position: relative;
+    min-height: 150vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+#sec>.first{
+    position: absolute;
+    height: 48vw;
+    width: 43vw;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%);
+
+}
+
+#third{
+    position: relative;
+    min-height: 120vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+#third>.first{
+    position: absolute;
+    height: 48vw;
+    width: 43vw;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 5%;
+    left: 60%;
+    transform: translate(-50%);
+
+}
+#fourth{
+    position: relative;
+    min-height: 120vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+#fourth>.first{
+    position: absolute;
+    height: 48vw;
+    width: 42vw;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 5%;
+    left: 40%;
+    transform: translate(-50%);
+
+}
+#fifth{
+    position: relative;
+    min-height: 120vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+#fifth>.first{
+    position: absolute;
+    height: 48vw;
+    width: 43vw;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 5%;
+    left: 60%;
+    transform: translate(-50%);
+
+}
+#sixth{
+    position: relative;
+    min-height: 120vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+#sixth>.first{
+    position: absolute;
+    height: 48vw;
+    width: 43vw;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 5%;
+    left: 40%;
+    transform: translate(-50%);
+
+}
+#eight{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+/* 
+::-webkit-scrollbar{
+    background: rgb(34, 34, 34);
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: rgb(255, 239, 147);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    #main{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(230, 230, 230);
+    }
+    a:hover{
+        color: rgb(172, 172, 172);
+    
+    }
+    .layer{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(48, 48, 48);
+        z-index: 999;
+        top: -100%;
+        position: fixed;
+    }
+    .Home{
+        position: absolute;
+        top: 3%;
+        left: 20%;
+        height: 20vh;
+        width: 90vh;
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+    .Home>h1:nth-child(1){
+        position: relative;
+        color: rgb(163, 163, 163);
+        left: 10%;
+        font-size: 8vw;
+        font-family: ap1;
+    }
+    .Home>h1:nth-child(2){
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 8vw;
+        font-family: ap2;
+        display: none;
+
+    }
+    .Work{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        height: 20vh;
+        width: 90vh;
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+    .Work>h1:nth-child(1){
+        position: relative;
+        color: rgb(163, 163, 163);
+        left: 10%;
+        font-size: 8vw;
+        font-family: ap1;
+    }
+    .Work>h1:nth-child(2){
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 8vw;
+        font-family: ap2;
+        display: none;
+
+    }
+    
+    
+    .About{
+        position: absolute;
+        top:46%;
+        left: 20%;
+        height: 20vh;
+        width: 90vh;
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+    .About>h1:nth-child(1){
+        position: relative;
+        color: rgb(163, 163, 163);
+        left: 10%;
+        font-size: 8vw;
+        font-family: ap1;
+    }
+    .About>h1:nth-child(2){
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 8vw;
+        font-family: ap2;
+        display: none;
+    }
+    
+    
+    
+    .Hire{
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        height: 20vh;
+        width: 90vh;
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+    .Hire>h1:nth-child(1){
+        position: relative;
+        color: rgb(163, 163, 163);
+        left: 10%;
+        font-size: 8vw;
+        font-family: ap1;
+    }
+    .Hire>h1:nth-child(2){
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 8vw;
+        font-family: ap2;
+        display: none;
+
+    }
+    
+    
+    
+    #seven{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(19, 19, 19);
+        color: white;
+        font-family: ap2;
+        position: fixed;
+    
+    }
+    #seven>.nav{
+        position: absolute;
+        top: 20%;
+        height: 10vh;
+        width: 100%;
+        font-size: 1.6vw;
+        display: flex;
+        color: rgb(201, 201, 201);
+        justify-content: space-between;
+        text-align: center;
+        text-align: center;
+        padding: 25px;
+        font-weight: bold;
+    
+    }
+    #seven>.nav>ul{
+        display: flex;
+        list-style: none;
+      
+    }
+    #seven>.nav>ul>li{
+        padding-left: 30px;
+    }
+    #seven>.nav>ul>li:hover{
+        cursor: pointer;
+        color: rgb(161, 161, 161);
+    }
+    
+    
+    .eml{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    #seven>.text{
+        position: absolute;
+        top: 45%;
+        left: 20%;
+        font-family: ap1;
+        font-size: 9vw;
+        color: rgb(226, 226, 226);
+        font-weight: 100;
+    }
+    #seven>.link{
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%);
+    
+    }
+    #seven>.link>a{
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(155, 155, 2);
+    }
+    #seven>.link:hover svg{
+        transform: translateX(20px);
+    }
+    
+    i{
+        position: absolute;
+        font-size: 3vw;
+        font-weight: 100;
+        cursor: pointer;
+        padding: 10px 10px;
+        border-radius: 50%;
+        
+    }
+    svg{
+        transition: all 0.4s linear;
+    }
+    
+    .ri-linkedin-fill{
+        position: absolute;
+        bottom: 12%;
+        right: 20%;
+    }
+    .ri-instagram-line{
+        position: absolute;
+        bottom: 12%;
+        right: 12%;
+    }
+    i:hover{
+        background-color: rgb(75, 75, 75);
+    }
+    #first{
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+    }
+    .ri-menu-line{
+        color: white;
+        z-index: 9999;
+        position: relative;
+        top: 5%;
+        right: 5%;
+        position: fixed;
+       
+    }
+    .ri-close-line{
+        color: white;
+        z-index: 999;
+        position: relative;
+        top: 5%;
+        right: 5%;
+        position: fixed;
+        opacity: 0;
+    }
+    #first>.head{
+        position: absolute;
+        color: rgb(233, 233, 233);
+        font-family: ap2;
+        font-size: 4.2vw;
+        top: 10%;
+        left: 10%;
+    }
+    #first>.first{
+        position: absolute;
+        height: 55vw;
+        width: 43vw;
+        /* border: 1px solid white; */
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 40%;
+        left: 60%;
+        transform: translate(-50%);
+    
+    }
+    .first>.image{
+        position: relative;
+        height: 70%;
+        width: 100%;
+    
+    }
+    .first:hover{
+        text-decoration: underline;
+        text-decoration-color: yellow;
+    }
+    .image>img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .first>.smltxt{
+        font-family: ap2;
+        color: rgb(209, 209, 209);
+    
+    }
+    .first>.ltxt{
+        font-family: ap1;
+        font-size: 5vw;
+        color: white;
+    
+    }
+    /* #first>.aero{
+        position: absolute;
+        height: 7vw;
+        width: 7vw;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 51);
+        top: 55%;
+        right: 14%;
+        z-index: 99; */
+    /* } */
+    /* .aero>svg{
+        position: absolute;
+        width: 3vw;
+        height: 5vw;
+        font-weight: bold;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    } */
+    
+    #sec{
+        position: relative;
+        min-height: 70vh;
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+    }
+    #sec>.first{
+        position: absolute;
+        height: 55vw;
+        width: 43vw;
+        /* border: 1px solid white; */
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 0%;
+        left: 40%;
+        transform: translate(-50%);
+    
+    }
+    
+    #third{
+        position: relative;
+        min-height: 70vh;
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+    }
+    #third>.first{
+        position: absolute;
+        height: 55vw;
+        width: 43vw;
+        /* border: 1px solid white; */
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 0%;
+        left: 60%;
+        transform: translate(-50%);
+    
+    }
+    #fourth{
+        position: relative;
+        min-height: 70vh;
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+    }
+    #fourth>.first{
+        position: absolute;
+        height: 55vw;
+        width: 42vw;
+        /* border: 1px solid white; */
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 5%;
+        left: 40%;
+        transform: translate(-50%);
+    
+    }
+    #fifth{
+        position: relative;
+        min-height: 70vh;
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+    }
+    #fifth>.first{
+        position: absolute;
+        height: 55vw;
+        width: 43vw;
+        /* border: 1px solid white; */
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 5%;
+        left: 60%;
+        transform: translate(-50%);
+    
+    }
+    #sixth{
+        position: relative;
+        min-height: 70vh;
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+    }
+    #sixth>.first{
+        position: absolute;
+        height: 55vw;
+        width: 43vw;
+        /* border: 1px solid white; */
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 5%;
+        left: 40%;
+        transform: translate(-50%);
+    
+    }
+    #eight{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+    }
+    i::after{
+        content: "";
+        position: absolute;
+        height: 3.5vw;
+        width: 3.5vw;
+        border: 1px solid rgb(122, 122, 122);
+        border-radius: 50%;
+        top: -4%;
+        left: -4%;
+        display: none;
+    
+    
+    }
+    .mail{
+        display: none;
+
+    }
+    .follow{
+        display: none;
+    }
+
+}
