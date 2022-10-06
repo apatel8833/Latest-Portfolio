@@ -1272,7 +1272,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         left: -15%;
-        position: fixed;
+        /* position: fixed; */
     
     }
     #sixth>.sec{
@@ -1284,7 +1284,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         right: 170%;
-        position: fixed;
+        /* position: fixed; */
 
     
         
@@ -1298,7 +1298,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         left: -15%;
-        position: fixed;
+        /* position: fixed; */
     
         
     }
@@ -1311,7 +1311,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         right: 170%;
-        position: fixed;
+        /* position: fixed; */
         
     }#sixth>.fifth{
         height: 15vh;
@@ -1322,7 +1322,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         left: -15%;
-        position: fixed;
+        /* position: fixed; */
     
         
     }#sixth>.sixth{
@@ -1334,7 +1334,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         right: 170%;
-        position: fixed;
+        /* position: fixed; */
     
         
     }
@@ -1347,7 +1347,7 @@ i:hover{
         justify-content: center;
         align-items: center;
         left: -15%;
-        position: fixed;
+        /* position: fixed; */
 
     }
     span{
